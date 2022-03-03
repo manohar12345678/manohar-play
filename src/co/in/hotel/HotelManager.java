@@ -7,7 +7,7 @@ public class HotelManager {
         final Individual cashier = new Individual(PersonType.CASHIER, cashierTask);
 
         System.out.println(cashier.getPersonType());
-        System.out.println("manu-c");
+        System.out.println("mahesh-c");
         CashierTask cashierTask1 = (CashierTask) cashier.getTask();
         cashierTask1.collectCash();
 
